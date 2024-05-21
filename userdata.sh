@@ -1,3 +1,4 @@
+#!bin/bash
 hostnamectl set-hostname ${myserver}
 dnf update -y
 dnf install docker -y
